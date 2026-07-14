@@ -1,0 +1,104 @@
+h1{
+    text-align: center;
+    font-size: 2em;
+    color: rgb(61, 22, 3);
+    border: 5px solid rgb(165, 10, 10);
+    padding: 10px 20px;
+    background-color: rgb(205, 100, 100);
+    font-family: 'Courier New', Courier, monospace;
+    text-shadow: 1px 1px 0 #4b4a4a,   /* bottom-right shadow */
+    -1px -1px 0 #000;
+}
+label{
+    font-weight: bold;
+    color: rgb(246, 246, 8);
+    font-size: 2em;
+    text-align: center;
+    text-shadow: 2px 2px 0 #000,   /* bottom-right shadow */
+    -2px -2px 0 #000;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+#password-checker{
+    background-color: rgb(200, 105, 105);
+    border: 7px solid rgba(48, 2, 2, 0.141);
+    transform-style: preserve-3d;
+    transform:  translateZ(30px); /* depth */
+    transition: transform 1s ease;
+    width: 600px;
+    height: 300px;
+    text-align: center;
+    margin: 50px auto;
+    box-shadow: 0px 0px 40px rgba(0,0,0,0.5);
+}
+body{
+    background-color: rgb(75, 11, 11);
+}
+#strength{
+    background-color: maroon;
+    padding: 50px 20px ;
+    border: 2px dashed white;
+    border-radius: 20px;
+    transform-style: preserve-3d;
+    transform: translateZ(10px);
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.5);
+}
+#password{
+    padding: 10px 20px;
+    border: 3px solid #f29797;
+    border-radius: 5px;
+    font-family: 'Courier New', Courier, monospace;
+}
+#effect{
+    transform-style: preserve-3d;
+    perspective: 10000px;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.5);
+    width: 600px;
+    height: 350px;
+    text-align: center;
+    padding: 10px 60px 70px 50px;
+    margin: 50px auto;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+#title{
+    transform-style: preserve-3d;
+    transform: translateZ(20px);
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.5);
+    
+}
+#effect:hover{
+    background-color: rgb(91, 35, 35);
+}
+#strength:hover{
+    background-color: rgb(118, 39, 39);
+}
+#submit{
+    padding: 10px 20px;
+    font-size: 1em;
+}
+#submit:hover{
+    border-radius: 10px;
+    border: 3px solid skyblue;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.5);
+}
+#resultBlock{
+    background-color: maroon;
+    padding: 20px 20px ;
+    transform-style: preserve-3d;
+    perspective: 10000px;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.5); 
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5em;
+    color: white;
+    width: 600px;
+    height: auto;
+    text-align:center;
+    margin: 50px auto;
+}
+#resultBlock:hover{
+    background-color: rgb(118, 39, 39);
+}
+#result{
+    color: white;
+}
