@@ -25,3 +25,5 @@ If the password meets all conditions, it is marked **Strong**. Otherwise, the us
 2) can convert it to a game application which will help the players to understand the need of a strong password and necessities.
 3) update the UI to make more beautiful and interactive
 
+## Live Link
+Site is live at: https://rajeshwarisarkar180306-rgb.github.io/Password-Checker/
